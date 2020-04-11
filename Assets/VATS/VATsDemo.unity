@@ -220,20 +220,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 696123498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bab4dbf8242034449d8e65d16d169a8, type: 3}
+  m_Script: {fileID: 11500000, guid: e3d1ca2f8ad6a944a9690bb4f93407bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_meshRenderer: {fileID: 784298598}
   m_highlightColour: {r: 0, g: 1, b: 0, a: 1}
-  m_headTexValue: 1
-  m_leftArmTexValue: 0.9
-  m_rightArmTexValue: 0.8
-  m_torsoTexValue: 0.7
-  m_leftLegTexValue: 0.6
-  m_rightLegTexValue: 0.5
   m_shouldPulse: 1
   m_pulseRangeMin: 0.7
-  m_pulseRangeMax: 1.5
+  m_pulseRangeMax: 1.3
   m_pulseSpeed: 10
 --- !u!4 &696123500
 Transform:
