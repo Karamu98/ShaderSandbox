@@ -28,13 +28,6 @@ public class CharacterHighlighter : MeshHighlighter
         None
     }
 
-    [System.Serializable]
-    private class Zone
-    {
-        public BodyZone BodyZone;
-        public float ZoneValue;
-    }
-
 #if Kara_Debug
     Array debug_EnumVals = typeof(BodyZone).GetEnumValues();
     private void OnGUI()
