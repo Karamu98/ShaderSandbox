@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class CharacterHighlighter : MeshHighlighter
 {
-    readonly float[] m_zoneVals = { 1.0f, 0.9f, 0.8f, 0.7f, 0.6f, 0.5f };
+    readonly float[] m_zoneVals = { 1.0f, 0.9f, 0.8f, 0.7f, 0.6f, 0.5f, -1.0f };
     BodyZone m_selectedZone = BodyZone.None;
 
     public void HighlightBodyZone(BodyZone bodyZone)
